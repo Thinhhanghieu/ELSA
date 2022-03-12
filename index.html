@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ELSA</title>
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header-container">
+            <img srcset="./images/logo.png 2x" alt="" class="header-logo" />
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="hero">
+          <img  src="./images/Vector.png" alt="" class="hero-img">
+          <div class="container">
+            <div class="hero-container">
+              <div class="hero-content">
+                <h1 class="hero-heading">
+                  <span class="hero-heading1" >APP LUYỆN NÓI </span> <span class="hero-heading2" >& GIAO TIẾP TIẾNG ANH THỜI 4.0</span> 
+                </h1>
+                <p class="text1 hero-desc">
+                  Với ELSA Speak - Ai Cũng Có Thể Nói Tiếng Anh Hay!
+                </p>
+                <span class="hero-layout"> </span>
+                <button href="#" class="button button--primary button--rounded"
+                  >Đăng ký ngay</button>
+              </div>
+              <div class="hero-image">
+                <img src="./images/vong.png" alt="" class="vong">
+                <img src="./images/vong.png" alt="" class="vong1">
+                <img src="./images/vong.png" alt="" class="vong2">
+                <img srcset="./images/Phone13.png 2x" alt="" class="img-main"/>
+                <img srcset="./images/mic.png 2x" alt="" class="img-3">
+                <img srcset="./images/headphone.png 2x" alt="" class="img-1">
+                  <img srcset="./images/day.png 2x" alt="" class="img-2">
+                <div class="img-gr3">
+                  <img srcset="./images/a.png 2x" alt="" class="img-gr3-a">
+                  <img srcset="./images/blu1.png 2x" alt="">
+                </div>
+                <img srcset="./images/pink1.png 2x" alt="" class="img-4">
+                <img src="./images/d.png" alt="" class="img-5">
+                <img src="./images/yellow.png" alt="" class="img-6">
+                <img src="./images/Tim.png" alt="" class="img-7">
+                <img srcset="./images/8.png 2x" alt=""class="img-8" >
+                <img src="./images/9.png" alt=""class="img-9" >
+                <img src="./images/9.png" alt=""class="img-10" >
+                <img src="./images/9.png" alt=""class="img-11" >
+                <img srcset="./images/Vecto9.png 2x "  alt="" class="img-corner">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="Register">
+          <div class="container">
+            <div class="Register-container">
+              <form action="" class="Register-form" name="register" onsubmit=" return FormValidate();">
+                <h1 class="form-head"> <span class="head-1">  CÙNG ỨNG DỤNG ELSA </span>  <span class="head2"> NÓI TIẾNG ANH “THẢ GA” </span> </h1>
+                    <div class="form-img">
+                      <img srcset="./images/user-head.png 2x" alt="">
+                      <img srcset="./images/user-body.png 2x" alt="">
+                    </div>
+                    <div class="form-info">
+                      <label for="" class="text" >Họ tên *  <span style="color: red;" id="errorName" ></span><br></label>
+                      <input type="text" name="name"class="form-control" id="name" >
+                    </div>
+                    <div class="form-img">
+                      <img srcset="./images/Phone.png 2x" alt="">
+                    </div>
+                    <div class="form-info">
+                          <label for="" class="text" >Số điện thoại *  <span style="color: red;" id="erorPhone" ></span> <br> </label>
+                      <input type="text" name="phone" class="form-control" id="phone">
+                    </div>
+                    <div class="form-img">
+                      <img srcset="./images/Email.png 2x" alt="">
+                    </div>
+                    <div class="form-info">
+                      <label for="email" class="text" >Email * <span style="color: red;" id="erorEmail" ></span><br> </label>
+                      <input id="email" name="email" class="form-control" type="text"> <br>
+                    </div>
+
+                    <div class="form-checkbox">
+                        <input type="checkbox" id="check1" class="radio" value="1" name="fooby[1][]" onclick="myFunction1()"> 
+                        <label for="check" id="checkold" class="text-check" > Gói học 1 năm</label>
+                        <input type="checkbox" id="check2" class="radio" value="1" name="fooby[1][]" onclick="myFunction2()"> 
+                         <label for="" class="text-check"> Gói trọn đời </label>
+                    </div>
+                    <p id="text1" style="display:none">Gói 1 năm: 989.000 VND</p>
+                    <p id="text2" style="display:none">Gói trọn đời: 1.995.000 VND</p>
+                   <button type="submit" class=" button button--primary button-submit">Gửi đăng ký</button>
+              </form>
+              <div class="Register-img">
+                <img srcset="./images/Phone15.png 2x" alt="" class="img-register">
+                <img srcset="./images/sec2.png 2x" alt="" class="sec2-1">
+                <img srcset="./images/sec2blu.png 2x" alt="" class="sec2-2">
+                <img srcset="./images/sec2blub.png 2x" alt="" class="sec2-3">
+                <img srcset="./images/sec2pinkk.png 2x" alt="" class="sec2-4">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="footer">
+          <div class="container">
+            <div class="footer-container">
+              <div class="footer-image">
+                <img srcset="./images/foooter.png 2x" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script>
+          function FormValidate(){
+            var name = document.getElementById('name').value;
+			      var errorName = document.getElementById('errorName');
+		      	var regexName = /^[^\d+]*[\d+]{0}[^\d+]*$/;
+            
+            var phone = document.getElementById('phone').value;
+            var erorPhone = document.getElementById('erorPhone');
+            var regexPhone = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
+      
+            var email = document.getElementById('email').value;
+            var errorEmail = document.getElementById('erorEmail');
+            var reGexEmail = /[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}/igm;
+            
+            if (name == '' || name == null) {
+				    errorName.innerHTML = "Họ tên không được để trống!";
+			        }else if(!regexName.test(name)){
+            errorName.innerHTML = "Họ tên không hợp lệ!";
+            return false;
+		        	}else{
+			    	errorName.innerHTML = '';
+		        	}
+      
+            if (phone == '' || phone == null) {
+              erorPhone.innerHTML = "SĐT không được để trống!";
+            }else if(!regexPhone.test(phone)){
+              erorPhone.innerHTML = "SĐT không hợp lệ!";
+              return false;
+            }else{
+              erorPhone.innerHTML = '';
+            }
+      
+            if (email == '' || email == null) {
+              errorEmail.innerHTML = "Email không được để trống!";
+            }else if(!reGexEmail.test(email)){
+              errorEmail.innerHTML = "Email không hợp lệ!";
+              email = '';
+            }else{
+              errorEmail.innerHTML = '';
+            }
+      
+      
+            if ( phone && email) {
+              // Người dùng đã nhập đúng thông tin
+              alert("Đăng ký thành công!");
+              // alert(location.href = "http://itplus-academy.edu.vn/");
+              // return true; thực hiện việc submit form
+            }else{
+              
+            }
+            return false;
+      
+          }
+          
+        </script>     
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>
